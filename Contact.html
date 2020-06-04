@@ -132,26 +132,42 @@
          <h1 class="text-center contact-title" style="color:#000000">CONTACT ME! </h1>
           <div class="row">
             <form id="contact-form" action="https://mailthis.to/zoki4037@colorado.edu"method="POST" encType="multipart/form-data">
-              <div class="col-md-4 email-input"> 
-                <input  name="name" type="text" class="form-control" placeholder="Your Name" required>
-              </div>           
-              <div class="col-md-4 email-input"> 
-                <input  name="email" type="email" class="form-control" placeholder="Your Email" required> 
+              <div class="row"> <!-- Name, Email, Subject Row -->
+                <div class="col-md-4 email-input"> 
+                  <input  name="name" type="text" class="form-control" placeholder="Your Name" required>
+                </div>           
+                <div class="col-md-4 email-input"> 
+                    <input  name="email" type="email" class="form-control" placeholder="Your Email" required> 
+                </div>             
+                <div class="col-md-4 email-input">
+                  <input name="subject" type="subject" class="form-control" placeholder="Subject" required>
+                </div>         
+              </div>
+              <div class="row"> <!-- Message Row-->
+                <div class="col-md-12">
+                  <textarea name="message" class="form-control" placeholder="Message" rows="9" required></textarea>
+                </div>
               </div>             
-              <div class="col-md-4 email-input">
-                <input name="subject" type="subject" class="form-control" placeholder="Subject" required>
-              </div>          
-              <div class="col-md-12">
-                <textarea name="message" class="form-control" placeholder="Message" rows="9" required></textarea>
-              </div>            
-              <input type="file" name="file" placeholder="Attachments (optional)">
-              <input type="hidden" name="_after" value="https://zormenekinanee1.github.io/Contact.html">
-              <input type="hidden" name="_honeypot" value="">
-              <input type="hidden" name="_confirmation" value="Got it! Thanks for reaching out!">
-              <div class="col-md-6">
-                <button name="submit" type="submit" class="form-control" style="background-color:black; color:white">SEND MAIL
-                </button>
-              </div>                
+              <div class="row"> <!-- Features--> 
+                <div class="col-md-3">
+                  <input type="file" name="file" placeholder="Attachments (optional)">
+                </div>
+              </div>
+
+              <div class="row">
+     <!--            <input type="hidden" name="_after" value="https://zormenekinanee1.github.io/Contact.html"> -->
+                <input type="hidden" name="_honeypot" value="">
+                <input type="hidden" name="_confirmation" value="Message Sent!">
+              </div>           
+              <div class="row"> <!-- Send Mail -->
+                 <div class="col-md-6">           
+                    <button name="submit" type="submit" class="form-control" style="background-color:black; color:white">SEND MAIL 
+                    </button>
+                  </div>
+             </div>
+
+
+
             </form>
           </div>
       </div>
