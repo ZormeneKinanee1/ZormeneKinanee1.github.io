@@ -1,0 +1,61 @@
+ *,
+ *:before,
+ *:after
+ {
+ 	margin:0;
+ 	padding:0;
+
+ }
+body
+{
+	background: url("../img/dog.png") no-repeat center center; 
+	background-size: cover;
+	background-attachment:fixed ;
+
+
+}
+
+.container
+{
+	background:pink;
+	width: 600px;
+	margin:0 auto; 
+	margin-top: ;
+
+}
+
+header{
+
+	background: url("../img/banner.png") no-repeat center center; 
+	height:250px; 
+	width:500px;
+	margin:0 auto;
+
+}
+
+h1
+{
+	position: absolute; /*on top of everything  */
+	top: -999em;
+	left:-999em;
+
+
+}
+
+figure 
+{
+
+}
+
+img
+{
+	width: 500px; 
+	margin: 0 auto;
+
+}
+figcaption
+{
+	text-align:center;
+	margin:15px;
+
+}

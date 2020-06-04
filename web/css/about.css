@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+*, 
+*:before, 
+*:after
+{
+  padding:0;
+  margin:0;
+  border:0;
+  box-sizing:border-box;  
+
+} 
+nav
+{
+  text-align:center;
+}
+nav ul li
+{
+  display:inline-block;
+  padding-right:100px;
+  padding:20px;
+  font-size:20px;
+
+}
+a
+{
+  text-decoration:none;
+  color:black;
+}
+li
+{
+  margin-bottom:10px;
+}
+.cool-link::after
+{
+  content:'';
+  display:block;
+  width:0;
+  height:2px;
+  background:black;
+  transition:width .3s;
+}
+.cool-link:hover::after
+{
+  width:100%;
+}
+#active
+{
+  border-bottom: 2px solid #33cccc;
+
+}
+
+
+h1
+{
+  text-align:center;
+  color:#33cccc;
+  font-family: 'Dancing Script', cursive;
+  font-size:40px;
+}
+p
+{
+  margin-top:0px;
+  margin:50px;
+  font-size:20px;
+
+
+}
+.container
+{
+  display:flex;
+  width:90%;
+  height:620px;
+  box-shadow:2px 2px 10px #aaaaaa;
+  margin:auto;
+  overflow:hidden;
+}
+.left
+{
+    flex:45%;
+    background-image:url("https://i.ibb.co/GPgg1dh/about.jpg");
+    background-size:cover;
+
+}
+.right
+{
+  flex:45%;
+  padding:20px;
+
+}
+@media only screen  and (min-width:1px) and (max-width:320px)
+{
+  .container
+  {
+    display:grid;
+    height:510px;
+    overflow:scroll;
+  }
+  p
+  {
+    font-size:12px;
+    margin:20px;
+  }
+nav ul li
+{
+  display:inline-block;
+  padding-right:100px;
+  padding:10px;
+  font-size:12px;
+
+}
+
+}
+
+/*@media only screen  and (max-width:1000px)
+{ 
+  .container
+  {
+    display:grid;
+    width:90%;
+    height:100%;
+    overflow:hidden;
+  }
+
+
+}
+*/

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+*, 
+*:before, 
+*:after
+{
+  padding:0;
+  margin:0;
+  border:0;
+  box-sizing:border-box;  
+
+}
+/* ----------------------Menu End ------------------------------------------------------------------------------*/
+nav
+{
+  text-align:center;
+}
+nav ul li
+{
+  display:inline-block;
+  padding-right:100px;
+  padding:20px;
+  font-size:20px;
+/*  background-color:red;*/
+
+}
+a
+{
+  text-decoration:none;
+  color:black;
+}
+li
+{
+  margin-bottom:10px;
+}
+.cool-link::after
+{
+  content:'';
+  display:block;
+  width:0;
+  height:2px;
+  background:black;
+  transition:width .3s;
+}
+.cool-link:hover::after
+{
+  width:100%;
+}
+#active
+{
+  border-bottom: 2px solid #33cccc;
+
+}
+
+/* ----------------------Menu End ------------------------------------------------------------------------------*/
+
+/* ----------------------Art Work Css ---------------------------------------------------------------------------*/
+
+body
+ {
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+}
+
+
+.items {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  width: 5000px;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+.items li {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  list-style: none;
+  width: 200px;
+  height: 120px;
+  background-color: black;
+  transition-duration: .5s;
+  overflow: hidden;
+
+}
+.items li .bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center top;
+}
+.items li:hover {
+  transition-delay: .5s;
+  width: 400px;
+  height: 250px;
+}
+
+@media only screen  and (min-width:1px) and (max-width:320px)
+{
+  .container
+  {
+    display:grid;
+    height:510px;
+
+  }
+  nav ul li
+  {
+    display:inline-block;
+    padding-right:100px;
+    padding:10px;
+    font-size:12px;
+
+  }
+/*  .items li:hover 
+  {
+    width: 250px;
+    height: 150px;
+  }*/
+   .items
+  {
+    position:absolute;
+    display:table-row;
+    width:400px;
+    top: 70%;
+    padding:0;
+    margin:0;
+  }
+  .items li:hover
+   {
+    transition-delay: .2s;
+    padding:0;
+    margin:0;
+  }
+}
+/*@media only screen  and (min-width:320px) and (max-width:414px)
+{
+    .container
+  {
+    display:grid;
+    height:510px;
+
+  }
+  nav ul li
+  {
+    display:inline-block;
+    padding-right:100px;
+    padding:10px;
+    font-size:12px;
+
+  }
+  .items li:hover 
+  {
+   ;
+  width: 250px;
+  height: 150px;
+}
+
+*/
+
+@media only screen  and (max-width:1000px) 
+{
+  
+  .items
+  {
+    position:absolute;
+    display:table-row;
+    width:400px;
+    top: 70%;
+    padding:0;
+    margin:0;
+  }
+  .items li:hover
+   {
+    transition-delay: .2s;
+    padding:0;
+    margin:0;
+  }
+   nav ul li
+  {
+    display:inline-block;
+    padding-right:100px;
+    padding:10px;
+    font-size:12px;
+
+  }
+  .container
+  {
+    display:grid;
+    height:510px;
+
+  }
+
+ }
+
+
+
+
+
+
+
+
+/* ----------------------Menu End ------------------------------------------------------------------------------*/ 
+
+
+
+
