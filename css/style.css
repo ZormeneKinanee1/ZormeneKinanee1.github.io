@@ -713,6 +713,21 @@ li
   list-style-type: none;
 }
 
+.languages span
+{
+    display: inline;
+    max-width: 200px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 1em;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin:5px 2px;
+}
+}
 
 .tags li span {
     display: inline-block;
