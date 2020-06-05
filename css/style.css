@@ -2,7 +2,7 @@
 /* Body 
 ------------------------------------- */
 body {
-		background: #ffffff;
+    background: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -664,11 +664,6 @@ a.icon {
   padding-right: 10px;
 }
 
-/*
-#contact .contact-form {
-  padding-top: 5px;
-}*/
-
 #contact .form-control {
   background: transparent;
   border: 1px solid #eee;
@@ -789,6 +784,34 @@ footer
 .social-icon li a:hover {
   background: #ffffff;
 }
+/* Thank you Page styles
+/* ========================================== */
+#thanks-page
+{
+background: url('../images/emailsent2.png') no-repeat center;
+}
+
+#thanks
+{
+  background-color:#111;
+  opacity:.96;
+  margin: 150px auto ;
+  width: 70%;
+  padding: 100px;
+  
+}
+#thanks h1
+{
+  color:white;
+}
+#thanks, h2
+{
+  color:white;
+}
+#thanks h3
+{
+  color:blue;
+}
 
 /* Responsive Mobile styles
 /* ========================================== */
@@ -818,7 +841,7 @@ footer
   .header-three, .header-four,
   .header-five {
     min-height: 380px;
-	padding-top: 80px !important;
+  padding-top: 80px !important;
   }
 
   #about .col-md-4,

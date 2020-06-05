@@ -127,17 +127,19 @@
           </div>
         </div>
 
+<!-- https://getsimpleform.com/messages?form_api_token=e046dd9f8be9cac8ead523925ef38f3c
+ -->
      
       <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.2s">
          <h1 class="text-center contact-title" style="color:#000000">CONTACT ME! </h1>
           <div class="row">
-            <form id="contact-form" action="https://mailthis.to/zoki4037@colorado.edu"method="POST" encType="multipart/form-data">
+            <form id="contact-form" action="https://formsubmit.co/zoki4037@colorado.edu" method="POST" encType="multipart/form-data">
               <div class="row"> <!-- Name, Email, Subject Row -->
                 <div class="col-md-4 email-input"> 
                   <input  name="name" type="text" class="form-control" placeholder="Your Name" required>
                 </div>           
                 <div class="col-md-4 email-input"> 
-                    <input  name="email" type="email" class="form-control" placeholder="Your Email" required> 
+                    <input  name="_replyto" type="email" class="form-control" placeholder="Your Email" required> 
                 </div>             
                 <div class="col-md-4 email-input">
                   <input name="subject" type="subject" class="form-control" placeholder="Subject" required>
@@ -151,12 +153,8 @@
               <div class="row"> <!-- Features--> 
                 <div class="col-md-3">
                   <input type="file" name="file" placeholder="Attachments (optional)">
-                  <input type="hidden" name="_after" value="https://zormenekinanee1.github.io/Contact.html">
-                  <input type="hidden" name="_honeypot" value="">
-                  <input type="hidden" name="_confirmation" value="Message Sent!">
                 </div>
               </div>
-
                 
               <div class="row"> <!-- Send Mail -->
                  <div class="col-md-6">           
@@ -164,6 +162,11 @@
                     </button>
                   </div>
              </div>
+             <input type="hidden" name="_next" value="https://zormenekinanee1.github.io/Thanks.html">
+             <input type="text" name="_honey" style="display:none">
+             <input type="hidden" name="_autoresponse" value="Here is a copy of your email to Zormene Kinanee">
+
+
 
 
 
@@ -173,8 +176,6 @@
 
     </div>
   </div>
-
-</section>
 
 
 <!-- Footer section
