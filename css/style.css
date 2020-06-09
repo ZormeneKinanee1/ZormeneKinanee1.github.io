@@ -752,10 +752,6 @@ li
     overflow: hidden;
     margin:5px 2px;
 }
-
-/* Skills section styles
-/* ========================================== */
-
 .pdf-caption
 {
   display:inline-block;
@@ -766,6 +762,14 @@ li
     box-shadow: 4px 3px 7px -3px;
 
 }
+
+/* Adobe section styles
+/* ========================================== */
+.project-caption-title
+{
+  color:black;
+}
+
 
 /* footer section styles
 /* ========================================== */
