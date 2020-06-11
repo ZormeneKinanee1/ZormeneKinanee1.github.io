@@ -765,6 +765,14 @@ li
 
 /* Adobe section styles
 /* ========================================== */
+.project-caption-title
+{
+  color:#000;
+}
+
+
+/* Database Systems section styles
+/* ========================================== */
 .datasystems-caption-title
 {
   color:#000;
