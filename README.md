@@ -1,1 +1,1 @@
-copy and paste this url: https://zormenekinanee1.github.io 
+Use this url to view porfolio: https://zormenekinanee1.github.io 
